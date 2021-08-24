@@ -42,15 +42,30 @@
         </div>
       </div>
     </div>
- 
- 
-  </head>
-  
-  <body>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h1>Cryptocurrency Over Time</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Choose a coin:</h5>
+            <select id="selDataset"></select>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id="line"></div>
+        </div>
+      </div>
+    </div>
 
-
-
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="../../graphs.js"></script>
+    <script src="../../cryptos.csv"></script>
   </body>
   
   </html>
