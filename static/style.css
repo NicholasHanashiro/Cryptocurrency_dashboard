@@ -1,0 +1,44 @@
+h1, h2, h3{
+    font-family: Arial, sans-serif;
+    color: rgb(41, 44, 44);
+  }
+  
+  h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: blue;
+  }
+
+  .navbar{
+    position: absolute;
+    right: 30px;
+}
+
+.navbar a{
+    background-color:rgba(255, 255, 255, 0);
+  }
+
+  .homebtn{
+    background-color: white;
+    z-index:2;
+  }
+
+  .homebtn a{
+    width: 135px;
+    background:rgb(5, 22, 182);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 14px;
+    margin: 0px 0px 0px 40px;
+  }
+  
