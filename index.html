@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
     <link rel="stylesheet" href="static/style.css">
 
 </head>
@@ -53,14 +54,47 @@
                 <h1>Cryptocurrency Dashboard</h1>
                 <br>
                 <br>
+
+                <div class="topnav">
+                    <input type="text" id="cryptoInput" placeholder="Look up crypto...">
+                    <button id="button" type="button" class=btn btn default>Search</button>
+                </div>
             </div>
+
+
+
             <div class="col col-12 col-md-4 divbody">
                 <br>
                 <h2>Pages</h2>
 
                 <h3>Click on the images below!</h3>
+                <hr>
+                <h3 style="padding-right: 90px;">Page 1</h3>
+                <a href="static/HTML/page1.html"><img src="static/images/screenshot.png" alt="page1" width="280"
+                        style="padding-bottom: 10px;"></a>
+                <h3 style="padding-right: 90px;">Page 2</h3>
+                <a href="static/HTML/page2.html"><img src="images/screen_shot_chart.png" alt="page2" width="280"
+                        style="padding-bottom: 10px;"></a>
+                <h3 style="padding-right: 90px;">Cryptocurrency vs. Time</h3>
+                <a href="static/HTML/page3.html"><img src="static/images/screenshot_page3.png" alt="page3" width="280"
+                        style="padding-bottom: 10px;"></a>
             </div>
+
+        <div class="paragraph">
+
+            <p id="cryptoDesc"></p>
+        
         </div>
+
+        </div>
+    </div>
+
+    <div class=crypto>
+
+
+        <div id="root"></div>
+        <script src="static/js/query.js"></script>
+
     </div>
 
 
