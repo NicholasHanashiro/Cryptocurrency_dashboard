@@ -1,48 +1,76 @@
+
+
+
 h1, h2, h3{
     font-family: Arial, sans-serif;
     color: rgb(41, 44, 44);
   }
   
   h1{
-    font-size: 24px;
+    background-color: greenyellow;
+    font-size: 50px;
     font-weight: bold;
-    color: blue;
+    color: black;
   }
   
   h2{
     font-size: 22px;
     font-weight: bold;
-    color: blue;
+    color: black;
   }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h4{
+    font-size: 15px;
+    ;
+  }
+
+.row{
+  background-color: greenyellow;
+}
+
+.list{
+  background-color: ;
+}
+
+
+
+body{
+  background-color: greenyellow;
+}
+
 
   .navbar{
     position: absolute;
     right: 30px;
+    display: block;
+
 }
 
 .navbar a{
     background-color:rgba(255, 255, 255, 0);
+
   }
 
-  .homebtn{
-    background-color: white;
-    z-index:2;
+  #button{
+    background-color: yellow;
   }
+
 
   .homebtn a{
-    width: 135px;
-    background:rgb(5, 22, 182);
+    width: 150px;
+    background-color:yellow;
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
+    color:black;
     text-align: center;
     display: block;
-    padding: 14px;
+    padding: 30px;
     margin: 0px 0px 0px 40px;
   }
   
-  .topnav {
-    background-color: yellow;
  
-  }
