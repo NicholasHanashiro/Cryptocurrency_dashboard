@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Name,Ticker,Price,twitter_followers,reddit_subscribers
 Bitcoin,BTC,49015,3096212,3294595
 Ethereum,ETH,3222.72,1519907,1077117
@@ -10,16 +9,3 @@ Polkadot,DOT,25.87,556846,28747
 Solana,SOL,72.53,424322,34764
 Uniswap,UNI,27.1,606360,50982
 Terra-Luna,LUNA,29.57,111763,6011
-=======
-Name,Ticker,Price,twitter_followers,reddit_subscribers
-Bitcoin,BTC,49015,3096212,3294595
-Ethereum,ETH,3222.72,1519907,1077117
-Cardano,ADA,2.74,565024,578740
-Binance-Coin,BNB,503.01,4840268,602365
-Ripple,XRP,1.18,1985288,326864
-Dogecoin,DOGE,0.291117,2055865,2144347
-Polkadot,DOT,25.87,556846,28747
-Solana,SOL,72.53,424322,34764
-Uniswap,UNI,27.1,606360,50982
-Terra-Luna,LUNA,29.57,111763,6011
->>>>>>> 5a8b83f8aeff42e9b568306f19f27b0808985af0

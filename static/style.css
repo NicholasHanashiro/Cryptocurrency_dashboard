@@ -20,19 +20,8 @@ h1, h2, h3{
 
   h4{
     font-size: 15px;
-    ;
-  }
+}
 
-
-  #bar {
-    width: 250px;
-    float: left;
-  }
-
-  #bar2{
-    width: 250px;
-    float: right;
-  }
 
   .jumbotron{
     background-color: white;
@@ -46,13 +35,22 @@ background-color: white;
   background-color: white;
 }
 
+#bar {
+  width: 400px;
+  align-items: center;
+}
+
+#bar2 {
+  width: 400px;
+  align: center;
+}
+
 
 
 body{
   background-image: url("images/crypto.jpg");
-  background-repeat: repeat;
+  background-repeat: no;
 }
-
 
   .navbar{
     position: absolute;
