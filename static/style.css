@@ -1,44 +1,77 @@
 h1, h2, h3{
     font-family: Arial, sans-serif;
-    color: rgb(41, 44, 44);
   }
   
   h1{
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
-    color: blue;
+    color: black;
   }
   
   h2{
     font-size: 22px;
     font-weight: bold;
-    color: blue;
+    color: black;
   }
+
+  h3{
+    font-size: 18px;
+  }
+
+  h4{
+    font-size: 15px;
+    ;
+  }
+
+
+  #bar {
+    width: 250px;
+    float: left;
+  }
+
+  #bar2{
+    width: 250px;
+    float: right;
+  }
+
+  .jumbotron{
+    background-color: white;
+  }
+
+.row{
+background-color: white;
+}
+
+.menubuttons{
+  background-color: white;
+}
+
+
+
+body{
+  background-image: url("images/crypto.jpg");
+  background-repeat: repeat;
+}
+
 
   .navbar{
     position: absolute;
     right: 30px;
+    display: block;
+    background-color:white
 }
 
-.navbar a{
-    background-color:rgba(255, 255, 255, 0);
-  }
-
-  .homebtn{
-    background-color: white;
-    z-index:2;
-  }
 
   .homebtn a{
-    width: 135px;
-    background:rgb(5, 22, 182);
+    width: 150px;
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    color: white;
-    text-align: center;
+    color: black;
+    background-color: white;
     display: block;
-    padding: 14px;
+    padding: 15px;
     margin: 0px 0px 0px 40px;
   }
   
+ 

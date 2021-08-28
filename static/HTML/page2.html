@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 
+
 <body>
   <div>
     <div class="row">
@@ -43,14 +44,36 @@
     </div>
   </div>
 
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center">
+        <h1>Cryptocurrency A Popularity?</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Choose a coin:</h5>
+          <select id="selDataset"></select>
+        </div>
+      </div>
 
-  </head>
+      <div class="graphsTwo col-12">
+        <div class="col-6">
+          <div id="bar"></div>
+        </div>
+        <div class="col-6">
+          <div id="bar2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 
-  <body>
-
-
-
-
-  </body>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="../../bars.js"></script>
+  <script src="../../crypto_socials.csv"></script>
+</body>
 
 </html>
