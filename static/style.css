@@ -23,6 +23,17 @@ h1, h2, h3{
     ;
   }
 
+
+  #bar {
+    width: 250px;
+    float: left;
+  }
+
+  #bar2{
+    width: 250px;
+    float: right;
+  }
+
   .jumbotron{
     background-color: white;
   }
