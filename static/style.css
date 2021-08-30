@@ -28,11 +28,11 @@ h1, h2, h3{
   }
 
 .row{
-background-color: white;
+background-color:white;
 }
 
 .menubuttons{
-  background-color: white;
+  background-color:white;
 }
 
 #bar {
@@ -45,10 +45,13 @@ background-color: white;
   align: center;
 }
 
+.image3{
+  align-items: center;
+}
 
 
 body{
-  background-image: url("images/crypto.jpg");
+  background-image: url("images/bitcoinbackground.jpg");
   background-repeat: no;
 }
 
@@ -56,7 +59,7 @@ body{
     position: absolute;
     right: 30px;
     display: block;
-    background-color:white
+    background-color:white;
 }
 
 
